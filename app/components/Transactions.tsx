@@ -6,10 +6,10 @@ interface Transaction {
   }
   
   const transactions: Transaction[] = [
-    { date: "Jun 01", description: "Received Payment", amount: "+$500", status: "Completed" },
-    { date: "May 21", description: "Received Payment", amount: "+$500", status: "Completed" },
-    { date: "May 15", description: "Received Payment", amount: "+$500", status: "Completed" },
-    { date: "May 09", description: "Received Payment", amount: "+$500", status: "Completed" },
+    { date: "Jun 01", description: "Received Payment", amount: "+52000", status: "Completed" },
+    { date: "May 21", description: "Received Payment", amount: "+11000", status: "Pending" },
+    { date: "May 15", description: "Received Payment", amount: "+37000", status: "Completed" },
+    { date: "May 09", description: "Outgoing Payment", amount: "-500", status: "Failed" },
   ]
   
   export default function RecentTransactions() {
